@@ -1,0 +1,16 @@
+.base {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.off {
+  composes: base; /* スタイルの継承 */
+}
+
+.on {
+  composes: base; /* スタイルの継承 */
+  background-color: #09d3ac;
+  box-shadow: 0 0 12px #09d3ac;
+}

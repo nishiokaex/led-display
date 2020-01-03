@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(64, 16px);
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.block555 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 20px;
+}
+
+/* 16:9 => 64:39 */

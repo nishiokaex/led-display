@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'mplus';
+	src: url(/PixelMplus12-Regular.ttf);
+}
+
+.App {
+  text-align: center;
+  background: #282c34;
+  height: 100vmin;
+  padding: 10vmin;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
